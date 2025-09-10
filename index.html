@@ -147,139 +147,110 @@
       </div>
     </div>
   </nav>
-
   <!-- HERO -->
-  <section id="home" class="relative isolate pt-28 pb-16 text-white overflow-hidden">
-    
-    <!-- Background -->
-    <div aria-hidden="true" class="absolute inset-0">
-      <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900"></div>
-      <div class="absolute -top-32 -left-32 w-[36rem] h-[36rem] rounded-full blur-3xl opacity-30 bg-gradient-to-tr from-fuchsia-500 to-indigo-500"></div>
-      <div class="absolute -bottom-24 -right-24 w-[28rem] h-[28rem] rounded-full blur-3xl opacity-25 bg-gradient-to-tr from-emerald-400 to-cyan-500"></div>
-      <div class="absolute inset-0 dotgrid opacity-[.15]"></div>
+<section id="home" class="relative isolate pt-20 pb-12 text-white overflow-hidden">
+
+  <!-- Background -->
+  <div aria-hidden="true" class="absolute inset-0">
+    <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900"></div>
+    <div class="absolute -top-32 -left-32 w-[28rem] h-[28rem] sm:w-[36rem] sm:h-[36rem] rounded-full blur-3xl opacity-30 bg-gradient-to-tr from-fuchsia-500 to-indigo-500"></div>
+    <div class="absolute -bottom-24 -right-24 w-[20rem] h-[20rem] sm:w-[28rem] sm:h-[28rem] rounded-full blur-3xl opacity-25 bg-gradient-to-tr from-emerald-400 to-cyan-500"></div>
+    <div class="absolute inset-0 dotgrid opacity-[.15]"></div>
+  </div>
+
+  <!-- Content -->
+  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+
+      <!-- LEFT -->
+      <div class="lg:col-span-7 text-center lg:text-left">
+        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-white/15 bg-white/5 text-xs sm:text-sm text-indigo-200 mb-4 sm:mb-5">
+          <span>🚀</span> Next Java + Spring Boot batch starting 
+          <strong class="ml-1 text-white">15 Sept</strong>
+        </div>
+
+        <h1 class="font-extrabold leading-tight tracking-tight">
+          <span class="block text-2xl sm:text-4xl md:text-5xl lg:text-6xl bg-gradient-to-r from-orange-400 via-pink-400 to-fuchsia-400 bg-clip-text text-transparent break-words">
+            Master Software
+          </span>
+          <span class="block text-xl sm:text-4xl md:text-6xl lg:text-7xl bg-gradient-to-r from-indigo-400 to-cyan-300 bg-clip-text text-transparent mt-2 break-words">
+            Development with Amit IT
+          </span>
+        </h1>
+
+        <p class="mt-4 sm:mt-5 text-base sm:text-lg md:text-xl text-indigo-100/90 max-w-2xl mx-auto lg:mx-0">
+          Learn hands-on with <span class="font-semibold text-white">Amit Patil</span> (10+ yrs exp). Real projects, mock interviews, and placement assistance that actually works.
+        </p>
+
+        <ul class="mt-5 sm:mt-6 grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 text-sm sm:text-base text-indigo-100/90">
+          <li class="flex items-center gap-2">✓ Industry-ready syllabus</li>
+          <li class="flex items-center gap-2">✓ Live + Offline classes</li>
+          <li class="flex items-center gap-2">✓ Interview prep & DSA add-ons</li>
+          <li class="flex items-center gap-2">✓ Lifetime doubt support</li>
+        </ul>
+
+        <!-- CTA Buttons -->
+        <div class="mt-6 sm:mt-7 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
+          <button onclick="scrollToSection('courses')" class="shine group inline-flex items-center justify-center px-5 sm:px-6 py-3 rounded-xl text-sm sm:text-base font-semibold bg-gradient-to-r from-orange-500 to-fuchsia-600 hover:from-orange-600 hover:to-fuchsia-700 shadow-lg shadow-fuchsia-900/20">
+            Start Learning
+            <svg class="w-4 sm:w-5 h-4 sm:h-5 ml-2 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+            </svg>
+          </button>
+          <a href="https://wa.me/917507502027?text=Hi%20Amit%20IT%2C%20I%20want%20course%20details" target="_blank" class="inline-flex items-center justify-center px-5 sm:px-6 py-3 rounded-xl border border-indigo-300/60 text-indigo-100 hover:bg-white/10 text-sm sm:text-base">
+            WhatsApp Us
+          </a>
+        </div>
+
+        <!-- Reviews & Logos -->
+        <div class="mt-6 sm:mt-8 flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6">
+          <div class="flex items-center gap-2 text-amber-300">
+            <span class="text-base sm:text-lg">★★★★★</span>
+            <span class="text-xs sm:text-sm text-indigo-100/80">4.9/5 from 300+ reviews</span>
+          </div>
+          <div class="flex flex-wrap items-center gap-2 sm:gap-4 opacity-90 justify-center lg:justify-start">
+            <div class="text-[10px] sm:text-xs text-indigo-200">Trusted by alumni at</div>
+            <div class="flex items-center gap-2 sm:gap-3 text-indigo-100/80">
+              <div class="logo-item w-8 sm:w-10"><img src="assets/company logos/infosys.png" alt="Infosys"></div>
+              <div class="logo-item w-8 sm:w-10"><img src="assets/company logos/TCS.png" alt="TCS"></div>
+              <div class="logo-item w-8 sm:w-10"><img src="assets/company logos/wipro.png" alt="Wipro"></div>
+              <div class="logo-item w-8 sm:w-10"><img src="assets/company logos/accenture.png" alt="Accenture"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="lg:col-span-5 mt-8 lg:mt-0">
+        <div class="relative max-w-md sm:max-w-xl mx-auto reveal">
+          <div class="glass rounded-2xl border border-white/10 shadow-2xl p-4 sm:p-6 animate-float pulse-outline">
+            <div class="flex items-center justify-between mb-3 sm:mb-4">
+              <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-rose-400"></span>
+                <span class="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-amber-400"></span>
+                <span class="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-emerald-400"></span>
+              </div>
+              <span class="text-[10px] sm:text-xs text-indigo-200">Live session</span>
+            </div>
+            <div class="rounded-xl overflow-hidden border border-white/10 bg-slate-900">
+              <img src="assets/final img.jpg" alt="New batch starting soon" class="w-full h-auto object-cover rounded-xl border border-white/20 shadow-lg">
+            </div>
+            <div class="mt-3 sm:mt-4 flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-0 text-xs sm:text-sm text-indigo-100/80">
+              <div class="flex items-center gap-2"><span class="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-emerald-400"></span> Recording protected</div>
+              <button onclick="openSendMessageModal()" class="shine group inline-flex items-center justify-center px-5 sm:px-6 py-2.5 sm:py-3 rounded-xl text-sm sm:text-base font-semibold border-2 border-fuchsia-600 text-fuchsia-600 hover:border-fuchsia-700 hover:text-fuchsia-700 transition-colors">
+                Enroll Now
+                <svg class="w-4 sm:w-5 h-4 sm:h-5 ml-2 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
-
-    <!-- Content -->
-    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid lg:grid-cols-12 gap-10 items-center">
-
-        <!-- LEFT -->
-        <div class="lg:col-span-7">
-          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-white/15 bg-white/5 text-sm text-indigo-200 mb-5">
-            <span>🚀</span> Next Java + Spring Boot batch starting <strong class="ml-1 text-white">15 Sept</strong>
-          </div>
-
-          <h1 class="text-center font-extrabold leading-tight tracking-tight px-3">
-            <span class="block text-2xl sm:text-4xl md:text-5xl lg:text-6xl bg-gradient-to-r from-orange-400 via-pink-400 to-fuchsia-400 bg-clip-text text-transparent break-words">
-              Master Software
-            </span>
-            <span class="block text-2xl sm:text-4xl md:text-6xl lg:text-7xl bg-gradient-to-r from-indigo-400 to-cyan-300 bg-clip-text text-transparent mt-2 break-words">
-              Development with Amit IT
-            </span>
-          </h1>
-
-          <p class="mt-5 text-lg md:text-xl text-indigo-100/90 max-w-2xl">
-            Learn hands-on with <span class="font-semibold text-white">Amit Patil</span> (10+ yrs exp). Real projects, mock interviews, and placement assistance that actually works.
-          </p>
-
-          <ul class="mt-6 grid sm:grid-cols-2 gap-3 text-sm text-indigo-100/90">
-            <li class="flex items-center gap-2">✓ Industry-ready syllabus</li>
-            <li class="flex items-center gap-2">✓ Live + Offline classes</li>
-            <li class="flex items-center gap-2">✓ Interview prep & DSA add-ons</li>
-            <li class="flex items-center gap-2">✓ Lifetime doubt support</li>
-          </ul>
-
-          <!-- CTA Buttons -->
-          <div class="mt-7 flex flex-col sm:flex-row gap-4">
-            <button onclick="scrollToSection('courses')" class="shine group inline-flex items-center justify-center px-6 py-3 rounded-xl text-base font-semibold bg-gradient-to-r from-orange-500 to-fuchsia-600 hover:from-orange-600 hover:to-fuchsia-700 shadow-lg shadow-fuchsia-900/20">
-              Start Learning
-              <svg class="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
-              </svg>
-            </button>
-            <a href="https://wa.me/917507502027?text=Hi%20Amit%20IT%2C%20I%20want%20course%20details" target="_blank" class="inline-flex items-center justify-center px-6 py-3 rounded-xl border border-indigo-300/60 text-indigo-100 hover:bg-white/10">
-              WhatsApp Us
-            </a>
-          </div>
-
-          <!-- Reviews & Logos -->
-          <div class="mt-8 flex flex-col sm:flex-row sm:items-center gap-6">
-            <div class="flex items-center gap-2 text-amber-300">
-              <span class="text-lg">★★★★★</span>
-              <span class="text-sm text-indigo-100/80">4.9/5 from 300+ reviews</span>
-            </div>
-            <div class="flex items-center gap-4 opacity-90">
-              <div class="text-xs text-indigo-200">Trusted by alumni at</div>
-              <div class="flex items-center gap-3 text-indigo-100/80">
-                <div class="logo-item"><img src="assets/company logos/infosys.png" alt="Infosys"></div>
-                <div class="logo-item"><img src="assets/company logos/TCS.png" alt="TCS"></div>
-                <div class="logo-item"><img src="assets/company logos/wipro.png" alt="Wipro"></div>
-                <div class="logo-item"><img src="assets/company logos/accenture.png" alt="Accenture"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- RIGHT -->
-        <div class="lg:col-span-5">
-          <div class="relative max-w-xl mx-auto reveal">
-            <div class="glass rounded-2xl border border-white/10 shadow-2xl p-5 md:p-6 animate-float pulse-outline">
-              <div class="flex items-center justify-between mb-4">
-                <div class="flex items-center gap-2">
-                  <span class="w-3 h-3 rounded-full bg-rose-400"></span>
-                  <span class="w-3 h-3 rounded-full bg-amber-400"></span>
-                  <span class="w-3 h-3 rounded-full bg-emerald-400"></span>
-                </div>
-                <span class="text-xs text-indigo-200">Live session</span>
-              </div>
-              <div class="rounded-xl overflow-hidden border border-white/10 bg-slate-900">
-                  <img src="assets/final img.jpg" alt="New batch starting soon" class="w-full h-auto object-cover rounded-xl border border-white/20 shadow-lg">
-              </div>
-              <div class="mt-4 flex items-center justify-between text-sm text-indigo-100/80">
-                <div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span> Recording protected</div>
-                <button onclick="openSendMessageModal()" class="shine group inline-flex items-center justify-center px-6 py-3 rounded-xl text-base font-semibold border-2 border-fuchsia-600 text-fuchsia-600 hover:border-fuchsia-700 hover:text-fuchsia-700 transition-colors">
-                  Enroll Now
-                  <svg class="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Quick Badges -->
-      <div class="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-        <div class="glass rounded-xl border border-white/10 py-6 text-indigo-100">
-          <div class="text-2xl font-bold text-white counter" data-target="95">0</div>
-          <div class="text-xs">Placement Rate</div>
-        </div>
-        <div class="glass rounded-xl border border-white/10 py-6 text-indigo-100">
-          <div class="text-2xl font-bold text-white counter" data-target="8.5" data-suffix=" LPA">0</div>
-          <div class="text-xs">Avg Package</div>
-        </div>
-        <div class="glass rounded-xl border border-white/10 py-6 text-indigo-100">
-          <div class="text-2xl font-bold text-white counter" data-target="200" data-suffix="+">0</div>
-          <div class="text-xs">offers last year</div>
-        </div>
-        <div class="glass rounded-xl border border-white/10 py-6 text-indigo-100">
-          <div class="text-2xl font-bold text-white counter" data-target="50" data-suffix="+">0</div>
-          <div class="text-xs">Hiring Partners</div>
-        </div>
-      </div>
-
-      <!-- Discover more -->
-      <div class="mt-10 flex justify-center">
-        <button onclick="scrollToSection('about')" class="group inline-flex items-center gap-2 text-indigo-200 hover:text-white">
-          Discover more
-          <svg class="w-5 h-5 transition-transform group-hover:translate-y-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
-          </svg>
-        </button>
-      </div>
-    </div>
-  </section>
+  </div>
+</section>
 
   <!-- Mobile Menu Script -->
   <script>
@@ -1953,9 +1924,5 @@
   });
 })();
 </script>
-
-
-
 </body>
-
 </html>
