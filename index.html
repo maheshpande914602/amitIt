@@ -253,14 +253,18 @@
 </section>
 
   <!-- Mobile Menu Script -->
-  <script>
-    const menuBtn = document.getElementById("mobile-menu-btn");
-    const menu = document.getElementById("mobile-menu");
-    menuBtn.addEventListener("click", () => {
-      menu.classList.toggle("hidden");
-    });
-  </script>
-  <!-- ABOUT -->
+<script>
+  const menuBtn = document.getElementById("mobile-menu-btn");
+  const mobileMenu = document.getElementById("mobile-menu");
+  const menuIcon = document.getElementById("menu-icon");
+  const closeIcon = document.getElementById("close-icon");
+
+  menuBtn.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+    menuIcon.classList.toggle("hidden");
+    closeIcon.classList.toggle("hidden");
+  });
+</script>  <!-- ABOUT -->
 <section id="about" class="py-20 bg-white scroll-mt-24">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid md:grid-cols-2 gap-10 items-start">
@@ -1924,5 +1928,9 @@
   });
 })();
 </script>
+
+
+
 </body>
+
 </html>
